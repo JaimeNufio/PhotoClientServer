@@ -39,7 +39,7 @@ try:
 
                 # Save the image to a folder
                 image_file_name = f"image_{time.time()}.jpg"  # You can generate a unique filename here
-                save_path = '/path/to/save/images/' + image_file_name  # Replace with your desired save path
+                save_path = './' + image_file_name  # Replace with your desired save path
                 with open(save_path, 'wb') as image_file:
                     image_file.write(image_data)
                     print(f"Image saved: {image_file_name}")
